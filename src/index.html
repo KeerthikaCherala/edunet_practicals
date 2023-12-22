@@ -1,17 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lumino</title>
+<style>
+  body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(166, 215, 242);
+  }
+  img{
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    margin-right: 100%;
+  }
+  header {
+    background-color: rgb(176, 173, 173);
+    /* background-image:url(food-bg.jpg); */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+  }
+  h1{
+    margin-left: 200%;
+    margin-right: 200%;
+  }
+  nav {
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 100px;
+  }
+  .content {
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 1px solid rgba(132, 199, 235, 0.349);
+    background-color: rgba(132, 199, 235, 0.349);
+  }
+  .sidebar {
+    float: right;
+    height: fit-content;
+    width: 50%;
+    padding: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(133, 184, 212);
+    border: 1px solid rgb(133, 184, 212);
+  }
+  .sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  li{
+    text-align: center;
+  }
+</style>
 </head>
-
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
+    <header style="display: flex;">
+      <div class="image">
+        <img src="logo-2(rasmalai).jpg">
+      </div>
+      <div class="heading">
+        <h1>LUMINO</h1>
+      </div>
+    </header>
+  <nav>
+    <a href="lumino-home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="blog.html">Blog</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div class="div1" style="display: flex;">
+  <div class="content" >
+  <div class="div3" style="display: flex;">
+    <div class="h1">
+      <h2>FOOD</h2>
+    </div>
+    <div class="image" style="margin-left: 50px;">
+      <img src="logo-3(meals).jpg">
+    </div>
+  </div>
+    <div class="div2">
+        <p><strong>Author:</strong> John Doe</p>
+        <p><strong>Publication Date:</strong> August 17, 2023</p>
+        <p>Indian food is a vibrant tapestry woven from countless regional threads, each boasting its own unique flavors and specialties.
+        From the fiery curries of the south to the fragrant biryanis of the north, every bite is an adventure for the senses.</p>
+    </div>
+  </div>
+  <div class="sidebar">
+    <h2><marquee>Check These Out</marquee></h2>
+    <ul>
+      <li><a href="bfs.html" style="text-decoration: none;">Breakfasts</a></li>
+      <li><a href="meals.html" style="text-decoration: none;">Meals</a></li>
+      <li><a href="streetfood.html" style="text-decoration: none;">Street Food</a></li>
+      <li><a href="desserts.html" style="text-decoration: none;">Desserts</a></li>
+      <li><a href="beverages.html" style="text-decoration: none;">Beverages</a></li>
+    </ul>
+  </div>
+</div>
 </body>
-
 </html>
